@@ -558,6 +558,10 @@ footer strong { color: #fff; }
 
   .nav-links li { width: 100%; }
 
+  .nav-links li:has(.nav-wa) {
+    width: auto; 
+  }
+
   .nav-links a {
     display: block;
     padding: .6rem 0;
@@ -566,8 +570,12 @@ footer strong { color: #fff; }
   }
 
   .nav-wa {
-    margin-top: .5rem;
-    display: inline-flex !important;
+      display: inline-flex !important; 
+      width: fit-content;   
+      margin-top: 1rem;   
+      border-bottom: none !important;
+      padding: 10px 20px !important; 
+      white-space: nowrap; 
   }
 
   .nav-links li:last-child {

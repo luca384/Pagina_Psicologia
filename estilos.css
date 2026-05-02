@@ -570,6 +570,15 @@ footer strong { color: #fff; }
     display: inline-flex !important;
   }
 
+  .nav-links li:last-child {
+    border-bottom: none;
+  }
+  
+  .nav-links li:last-child a {
+    border-bottom: none !important;
+    padding: 10px 20px !important;
+  }
+  
   /* HERO */
   .hero { padding: 6rem 1.25rem 3rem; }
 
